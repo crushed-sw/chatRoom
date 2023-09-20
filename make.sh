@@ -34,7 +34,7 @@ sql_url = tcp://localhost:3306/webserver
 # 数据库用户名
 sql_user = root
 # 数据库密码
-sql_password = zk200111
+sql_password = root
 # 数据库连接池数量
 sql_poolsize = 4
 
