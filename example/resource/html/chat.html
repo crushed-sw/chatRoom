@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>注册登录</title>
+    <link rel="stylesheet" href="../css/chat.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="con-box">
+        <div class="notification"></div>
+        <div class="form-box">
+            <div class="users-title"><h2>在线成员</h2></div>
+            <div class="users"></div>
+
+            <div class="chat-form">
+                <div class="chat-box">
+                    <div class="chat-title">
+                        <h2 id="main-title"></h2>
+                        <p id="room-owner-name"></p>
+                    </div>
+                    <div class="chat-main-form"></div>
+                    <div class="chat-text">
+                        <div class="text-box">
+                            <div class="text-con">
+                                <textarea rows="2" cols="68" placeholder="CTRL-ENTER发送"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="send-message">发送</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="logout-room">退出房间</button>
+    <button class="delete-room">删除房间</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+<script src="../js/chat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #d8dee9 0%, #d8dee9 1%, #e8eef9 100%);
+}
+
+.notification {
+    background-color: #f0f0f0;
+    padding: 10px;
+    color: #bf616a;
+    border: 2px solid #bf616a;
+    border-radius: 4px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.notification.error {
+    color: #bf616a;
+    border: 2px solid #bf616a;
+    opacity: 1;
+}
+
+.notification.success {
+    color: #a3be8c;
+    border: 2px solid #a3be8c;
+    opacity: 1;
+}
+
+.container {
+    position: relative;
+    background-color: #4c566a;
+    width: 1040px;
+    height: 664px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+}
+
+.container .rooms {
+    position: relative;
+    width: 1000px;
+    height: 624px;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-color: transparent transparent;
+    z-index: 2;
+}
+
+.container .bg {
+    position: absolute;
+    border-radius: 20px;
+    width: 1040px;
+    height: 664px;
+    top: 0px;
+    background-image: linear-gradient(to bottom, rgba(76, 86, 106, 1) 0%, rgba(76, 86, 106, 0) 6%, rgba(76, 86, 106, 0) 94%, rgba(76, 86, 106, 1) 100%);
+    pointer-events: none;
+    z-index: 3;
+}
+
+.container .create-room {
+    position: absolute;
+    bottom: 100px;
+    right: -250px;
+    width: 200px;
+    color: #e5e9f0;
+    border: 2px solid #4c566a;
+    background-color: #4c566a;
+    outline: none;
+    border-radius: 13px;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .logout {
+    position: absolute;
+    bottom: 0px;
+    right: -250px;
+    width: 200px;
+    color: #e5e9f0;
+    border: 2px solid #4c566a;
+    background-color: #4c566a;
+    outline: none;
+    border-radius: 13px;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .create-room:hover {
+    background-color: #e5e9f0;
+    color: #4c566a;
+    border: 2px solid #4c566a;
+}
+
+.container .logout:hover {
+    background-color: #e5e9f0;
+    color: #4c566a;
+    border: 2px solid #4c566a;
+}
+
+.container .rooms .room {
+    float: left;
+    font-size: 14px;
+    width: 210px;
+    height: 100px;
+    margin: 20px;
+	text-decoration: none;
+	text-align: center;
+    background-color: #3b4252;
+	cursor: pointer;
+	user-select: none;
+    border: 2px solid #d8dee9;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 3px 5px 16px rgba(0,0,0,0.1);
+    color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: 0.5s ease-in-out;
+    flex-direction: column;
+}
+
+.container .rooms .room div {
+    display: relative;
+}
+
+.container .rooms .room .name {
+    font-size: 18px;
+}
+
+.container .rooms .room:hover {
+    box-shadow: 0 5px 30px rgba(255, 255, 255, .3);
+}
+

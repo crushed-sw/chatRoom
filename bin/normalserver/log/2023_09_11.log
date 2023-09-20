@@ -1,0 +1,421 @@
+2023_09_11 22:04:17.578623 [info]  : event loop created in thread 1198705
+2023_09_11 22:04:17.578862 [info]  : ==================== Server Init  ====================
+2023_09_11 22:04:17.578882 [info]  : Port: 9999, threadNum: 4
+2023_09_11 22:04:17.578901 [info]  : Resource server: 127.0.0.1:9998
+2023_09_11 22:04:17.578919 [info]  : ==================== Server Start ====================
+2023_09_11 22:04:17.580654 [info]  : event loop created in thread 1198707
+2023_09_11 22:04:17.580720 [info]  : eventloop start loop in 1198707
+2023_09_11 22:04:17.581761 [info]  : event loop created in thread 1198708
+2023_09_11 22:04:17.581983 [info]  : eventloop start loop in 1198708
+2023_09_11 22:04:17.582132 [info]  : event loop created in thread 1198709
+2023_09_11 22:04:17.582315 [info]  : eventloop start loop in 1198709
+2023_09_11 22:04:17.582473 [info]  : event loop created in thread 1198710
+2023_09_11 22:04:17.582558 [info]  : eventloop start loop in 1198705
+2023_09_11 22:04:17.582589 [info]  : eventloop start loop in 1198710
+2023_09_11 22:04:21.224320 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#1 from 127.0.0.1:51582
+2023_09_11 22:04:21.224407 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#1] at fd: 14
+2023_09_11 22:04:21.224562 [info]  : client 127.0.0.1:51582 connectd
+2023_09_11 22:04:23.030412 [info]  : event loop created in thread 1198707
+2023_09_11 22:04:23.030465 [fatal] : another eventloop exist in thread 1198707
+2023_09_11 22:04:23.030510 [info]  : client actor[0x7f91b8002700]
+2023_09_11 22:04:23.030545 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b8002700eventloop start loop in 1198707
+2023_09_11 22:04:23.030846 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:23.031485 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b8002700TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:23.032009 [info]  : client dctor[0x7f91b8002700]
+2023_09_11 22:04:23.032088 [info]  : 127.0.0.1:51582 get source /
+2023_09_11 22:04:23.033782 [info]  : client 127.0.0.1:51582 would closed
+2023_09_11 22:04:23.033824 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#1
+2023_09_11 22:04:23.033865 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#1] at fd: 14
+2023_09_11 22:04:23.400298 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#2 from 127.0.0.1:51594
+2023_09_11 22:04:23.400369 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#2] at fd: 14
+2023_09_11 22:04:23.400467 [info]  : client 127.0.0.1:51594 connectd
+2023_09_11 22:04:23.416554 [info]  : event loop created in thread 1198708
+2023_09_11 22:04:23.416672 [fatal] : another eventloop exist in thread 1198708
+2023_09_11 22:04:23.416739 [info]  : client actor[0x7f91bc0026f0]
+2023_09_11 22:04:23.416793 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91bc0026f0eventloop start loop in 1198708
+2023_09_11 22:04:23.418178 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:23.418756 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91bc0026f0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:23.419291 [info]  : client dctor[0x7f91bc0026f0]
+2023_09_11 22:04:23.419404 [info]  : 127.0.0.1:51594 get source /html/login.html
+2023_09_11 22:04:23.421784 [info]  : client 127.0.0.1:51594 would closed
+2023_09_11 22:04:23.421827 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#2
+2023_09_11 22:04:23.421921 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#2] at fd: 14
+2023_09_11 22:04:23.541026 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#3 from 127.0.0.1:51602
+2023_09_11 22:04:23.541100 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#3] at fd: 14
+2023_09_11 22:04:23.541259 [info]  : client 127.0.0.1:51602 connectd
+2023_09_11 22:04:23.553282 [info]  : event loop created in thread 1198709
+2023_09_11 22:04:23.553470 [fatal] : another eventloop exist in thread 1198709
+2023_09_11 22:04:23.553561 [info]  : client actor[0x7f91b00026f0]
+2023_09_11 22:04:23.553620 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b00026f0eventloop start loop in 1198709
+2023_09_11 22:04:23.554307 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:23.555734 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#4 from 127.0.0.1:51604
+2023_09_11 22:04:23.555805 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#4] at fd: 18
+2023_09_11 22:04:23.555903 [info]  : client 127.0.0.1:51604 connectd
+2023_09_11 22:04:23.561229 [info]  : event loop created in thread 1198710
+2023_09_11 22:04:23.563549 [fatal] : another eventloop exist in thread 1198710
+2023_09_11 22:04:23.563614 [info]  : client actor[0x7f91ac0026e0]
+2023_09_11 22:04:23.563648 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91ac0026e0eventloop start loop in 1198710
+2023_09_11 22:04:23.563939 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 21
+2023_09_11 22:04:23.561229 [info]  : event loop created in thread 1198710
+TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b00026f0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:23.564098 [info]  : client dctor[0x7f91b00026f0]
+2023_09_11 22:04:23.564172 [info]  : 127.0.0.1:51602 get source /css/login.css
+2023_09_11 22:04:23.564493 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91ac0026e0client 127.0.0.1:51602 would closed
+2023_09_11 22:04:23.565005 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#3
+2023_09_11 22:04:23.565051 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#3] at fd: 14
+2023_09_11 22:04:23.565389 [info]  : TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 21
+2023_09_11 22:04:23.565477 [info]  : client dctor[0x7f91ac0026e0]
+2023_09_11 22:04:23.565585 [info]  : 127.0.0.1:51604 get source /js/login.js
+2023_09_11 22:04:23.566501 [info]  : client 127.0.0.1:51604 would closed
+2023_09_11 22:04:23.566540 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#4
+2023_09_11 22:04:23.566631 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#4] at fd: 18
+2023_09_11 22:04:30.137429 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#5 from 127.0.0.1:38872
+2023_09_11 22:04:30.137492 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#5] at fd: 14
+2023_09_11 22:04:30.137629 [info]  : client 127.0.0.1:38872 connectd
+2023_09_11 22:04:30.143713 [info]  : event loop created in thread 1198707
+2023_09_11 22:04:30.143820 [info]  : client actor[0x7f91b8006b50]
+2023_09_11 22:04:30.143870 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b8006b50eventloop start loop in 1198707
+2023_09_11 22:04:30.144186 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:30.356983 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b8006b50TcpConnection::dctor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:30.357173 [info]  : client dctor[0x7f91b8006b50]
+2023_09_11 22:04:30.357228 [info]  : 123456 login success
+2023_09_11 22:04:30.357416 [info]  : 127.0.0.1:38872 get source /login
+2023_09_11 22:04:30.358689 [info]  : client 127.0.0.1:38872 would closed
+2023_09_11 22:04:30.358730 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#5
+2023_09_11 22:04:30.358773 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#5] at fd: 14
+2023_09_11 22:04:30.364573 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#6 from 127.0.0.1:38874
+2023_09_11 22:04:30.364638 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#6] at fd: 14
+2023_09_11 22:04:30.364721 [info]  : client 127.0.0.1:38874 connectd
+2023_09_11 22:04:30.453804 [info]  : event loop created in thread 1198708
+2023_09_11 22:04:30.453853 [info]  : client actor[0x7f91bc0037a0]
+2023_09_11 22:04:30.453879 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91bc0037a0eventloop start loop in 1198708
+2023_09_11 22:04:30.454126 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:30.454510 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91bc0037a0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:30.454643 [info]  : client dctor[0x7f91bc0037a0]
+2023_09_11 22:04:30.454705 [info]  : 127.0.0.1:38874 get source /html/rooms.html
+2023_09_11 22:04:30.455641 [info]  : client 127.0.0.1:38874 would closed
+2023_09_11 22:04:30.455679 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#6
+2023_09_11 22:04:30.455770 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#6] at fd: 14
+2023_09_11 22:04:30.796380 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#7 from 127.0.0.1:38878
+2023_09_11 22:04:30.796458 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#7] at fd: 14
+2023_09_11 22:04:30.796557 [info]  : client 127.0.0.1:38878 connectd
+2023_09_11 22:04:30.807557 [info]  : event loop created in thread 1198709
+2023_09_11 22:04:30.807664 [info]  : client actor[0x7f91b0001de0]
+2023_09_11 22:04:30.807713 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b0001de0eventloop start loop in 1198709
+2023_09_11 22:04:30.808309 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:30.808662 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b0001de0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:30.809248 [info]  : client dctor[0x7f91b0001de0]
+2023_09_11 22:04:30.809356 [info]  : 127.0.0.1:38878 get source /css/rooms.css
+2023_09_11 22:04:30.813853 [info]  : client 127.0.0.1:38878 would closed
+2023_09_11 22:04:30.813895 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#7
+2023_09_11 22:04:30.813978 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#7] at fd: 14
+2023_09_11 22:04:30.814568 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#8 from 127.0.0.1:38888
+2023_09_11 22:04:30.814628 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#8] at fd: 14
+2023_09_11 22:04:30.814749 [info]  : client 127.0.0.1:38888 connectd
+2023_09_11 22:04:30.820024 [info]  : event loop created in thread 1198710
+2023_09_11 22:04:30.820185 [info]  : client actor[0x7f91ac001c60]
+2023_09_11 22:04:30.820241 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91ac001c60eventloop start loop in 1198710
+2023_09_11 22:04:30.820869 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:30.821560 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91ac001c60TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:30.822142 [info]  : client dctor[0x7f91ac001c60]
+2023_09_11 22:04:30.822247 [info]  : 127.0.0.1:38888 get source /js/rooms.js
+2023_09_11 22:04:30.830714 [info]  : client 127.0.0.1:38888 would closed
+2023_09_11 22:04:30.830756 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#8
+2023_09_11 22:04:30.830852 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#8] at fd: 14
+2023_09_11 22:04:30.961195 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#9 from 127.0.0.1:38896
+2023_09_11 22:04:30.961260 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#9] at fd: 14
+2023_09_11 22:04:30.961366 [info]  : client 127.0.0.1:38896 connectd
+2023_09_11 22:04:30.973591 [info]  : event loop created in thread 1198707
+2023_09_11 22:04:30.973710 [info]  : client actor[0x7f91b8001b60]
+2023_09_11 22:04:30.973769 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b8001b60eventloop start loop in 1198707
+2023_09_11 22:04:30.974374 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:30.976479 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b8001b60TcpConnection::dctor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:30.977017 [info]  : client dctor[0x7f91b8001b60]
+2023_09_11 22:04:35.799500 [info]  : client 127.0.0.1:38896 exception closed
+2023_09_11 22:04:35.800093 [info]  : client 127.0.0.1:38896 would closed
+2023_09_11 22:04:35.800135 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#9
+2023_09_11 22:04:35.800177 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#9] at fd: 14
+2023_09_11 22:04:35.801073 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#10 from 127.0.0.1:38902
+2023_09_11 22:04:35.801139 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#10] at fd: 14
+2023_09_11 22:04:35.801230 [info]  : client 127.0.0.1:38902 connectd
+2023_09_11 22:04:35.830194 [info]  : event loop created in thread 1198708
+2023_09_11 22:04:35.830264 [info]  : client actor[0x7f91bc002610]
+2023_09_11 22:04:35.830290 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91bc002610eventloop start loop in 1198708
+2023_09_11 22:04:35.830820 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:35.831210 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91bc002610TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:35.831598 [info]  : client dctor[0x7f91bc002610]
+2023_09_11 22:04:35.831671 [info]  : 127.0.0.1:38902 get source /html/chat.html
+2023_09_11 22:04:35.833661 [info]  : client 127.0.0.1:38902 would closed
+2023_09_11 22:04:35.833700 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#10
+2023_09_11 22:04:35.833742 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#10] at fd: 14
+2023_09_11 22:04:36.004519 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#11 from 127.0.0.1:38910
+2023_09_11 22:04:36.004587 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#11] at fd: 14
+2023_09_11 22:04:36.004677 [info]  : client 127.0.0.1:38910 connectd
+2023_09_11 22:04:36.036670 [info]  : event loop created in thread 1198709
+2023_09_11 22:04:36.036784 [info]  : client actor[0x7f91b0002610]
+2023_09_11 22:04:36.036840 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b0002610eventloop start loop in 1198709
+2023_09_11 22:04:36.037483 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:36.037977 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b0002610TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:36.038499 [info]  : client dctor[0x7f91b0002610]
+2023_09_11 22:04:36.038604 [info]  : 127.0.0.1:38910 get source /css/chat.css
+2023_09_11 22:04:36.041802 [info]  : client 127.0.0.1:38910 would closed
+2023_09_11 22:04:36.041840 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#11
+2023_09_11 22:04:36.041900 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#11] at fd: 14
+2023_09_11 22:04:36.044139 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#12 from 127.0.0.1:38914
+2023_09_11 22:04:36.044207 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#12] at fd: 14
+2023_09_11 22:04:36.044295 [info]  : client 127.0.0.1:38914 connectd
+2023_09_11 22:04:36.051281 [info]  : event loop created in thread 1198710
+2023_09_11 22:04:36.051379 [info]  : client actor[0x7f91ac002670]
+2023_09_11 22:04:36.051430 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91ac002670eventloop start loop in 1198710
+2023_09_11 22:04:36.052025 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:36.052459 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91ac002670TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:36.052628 [info]  : client dctor[0x7f91ac002670]
+2023_09_11 22:04:36.052697 [info]  : 127.0.0.1:38914 get source /js/chat.js
+2023_09_11 22:04:36.056663 [info]  : client 127.0.0.1:38914 would closed
+2023_09_11 22:04:36.056710 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#12
+2023_09_11 22:04:36.056754 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#12] at fd: 14
+2023_09_11 22:04:36.166365 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#13 from 127.0.0.1:38916
+2023_09_11 22:04:36.166435 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#13] at fd: 14
+2023_09_11 22:04:36.166556 [info]  : client 127.0.0.1:38916 connectd
+2023_09_11 22:04:39.651337 [info]  : event loop created in thread 1198707
+2023_09_11 22:04:39.651519 [info]  : client actor[0x7f91b80081c0]
+2023_09_11 22:04:39.651618 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b80081c0eventloop start loop in 1198707
+2023_09_11 22:04:39.652130 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:39.669976 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b80081c0TcpConnection::dctor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:39.670253 [info]  : client dctor[0x7f91b80081c0]
+2023_09_11 22:04:42.124861 [info]  : client 127.0.0.1:38916 exception closed
+2023_09_11 22:04:42.125576 [info]  : client 127.0.0.1:38916 would closed
+2023_09_11 22:04:42.125608 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#13
+2023_09_11 22:04:42.125684 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#13] at fd: 14
+2023_09_11 22:04:42.126624 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#14 from 127.0.0.1:50334
+2023_09_11 22:04:42.126689 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#14] at fd: 14
+2023_09_11 22:04:42.126793 [info]  : client 127.0.0.1:50334 connectd
+2023_09_11 22:04:42.169032 [info]  : event loop created in thread 1198708
+2023_09_11 22:04:42.169142 [info]  : client actor[0x7f91bc002930]
+2023_09_11 22:04:42.169196 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91bc002930eventloop start loop in 1198708
+2023_09_11 22:04:42.169742 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:42.170772 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91bc002930TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:04:42.171410 [info]  : client dctor[0x7f91bc002930]
+2023_09_11 22:04:42.171545 [info]  : 127.0.0.1:50334 get source /html/rooms.html
+2023_09_11 22:04:42.172808 [info]  : client 127.0.0.1:50334 would closed
+2023_09_11 22:04:42.172851 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#14
+2023_09_11 22:04:42.172950 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#14] at fd: 14
+2023_09_11 22:04:42.334722 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#15 from 127.0.0.1:50336
+2023_09_11 22:04:42.334804 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#15] at fd: 14
+2023_09_11 22:04:42.334893 [info]  : client 127.0.0.1:50336 connectd
+2023_09_11 22:04:42.341778 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#16 from 127.0.0.1:50338
+2023_09_11 22:04:42.341843 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#16] at fd: 15
+2023_09_11 22:04:42.341930 [info]  : client 127.0.0.1:50338 connectd
+2023_09_11 22:04:42.343200 [info]  : event loop created in thread 1198709
+2023_09_11 22:04:42.343288 [info]  : client actor[0x7f91b0001d70]
+2023_09_11 22:04:42.343338 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b0001d70eventloop start loop in 1198709
+2023_09_11 22:04:42.343815 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:04:42.344129 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b0001d70TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:04:42.344455 [info]  : client dctor[0x7f91b0001d70]
+2023_09_11 22:04:42.344542 [info]  : 127.0.0.1:50336 get source /js/rooms.js
+2023_09_11 22:04:42.347416 [info]  : event loop created in thread 1198710
+2023_09_11 22:04:42.347473 [info]  : client actor[0x7f91ac002a70]
+2023_09_11 22:04:42.347506 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91ac002a70eventloop start loop in 1198710
+2023_09_11 22:04:42.348108 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:04:42.348597 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91ac002a70TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:04:42.350769 [info]  : client dctor[0x7f91ac002a70]
+2023_09_11 22:04:42.350898 [info]  : 127.0.0.1:50338 get source /css/rooms.css
+2023_09_11 22:04:42.354891 [info]  : client 127.0.0.1:50338 would closed
+2023_09_11 22:04:42.354938 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#16
+2023_09_11 22:04:42.354981 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#16] at fd: 15
+2023_09_11 22:04:42.355445 [info]  : client 127.0.0.1:50336 would closed
+2023_09_11 22:04:42.355484 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#15
+2023_09_11 22:04:42.355527 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#15] at fd: 14
+2023_09_11 22:04:42.465484 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#17 from 127.0.0.1:50350
+2023_09_11 22:04:42.465555 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#17] at fd: 14
+2023_09_11 22:04:42.465673 [info]  : client 127.0.0.1:50350 connectd
+2023_09_11 22:04:42.473691 [info]  : event loop created in thread 1198707
+2023_09_11 22:04:42.473824 [info]  : client actor[0x7f91b80068b0]
+2023_09_11 22:04:42.473876 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f91b80068b0eventloop start loop in 1198707
+2023_09_11 22:04:42.475662 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:42.477228 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f91b80068b0TcpConnection::dctor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:04:42.477704 [info]  : client dctor[0x7f91b80068b0]
+2023_09_11 22:17:13.786247 [info]  : event loop created in thread 1199634
+2023_09_11 22:17:13.786494 [info]  : ==================== Server Init  ====================
+2023_09_11 22:17:13.786508 [info]  : Port: 9999, threadNum: 4
+2023_09_11 22:17:13.786526 [info]  : Resource server: 127.0.0.1:9998
+2023_09_11 22:17:13.786544 [info]  : ==================== Server Start ====================
+2023_09_11 22:17:13.786797 [info]  : event loop created in thread 1199636
+2023_09_11 22:17:13.786942 [info]  : eventloop start loop in 1199636
+2023_09_11 22:17:13.788524 [info]  : event loop created in thread 1199637
+2023_09_11 22:17:13.789027 [info]  : eventloop start loop in 1199637
+2023_09_11 22:17:13.789389 [info]  : event loop created in thread 1199638
+2023_09_11 22:17:13.789599 [info]  : eventloop start loop in 1199638
+2023_09_11 22:17:13.789704 [info]  : event loop created in thread 1199639
+2023_09_11 22:17:13.789779 [info]  : eventloop start loop in 1199634
+2023_09_11 22:17:13.789914 [info]  : eventloop start loop in 1199639
+2023_09_11 22:17:15.836540 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#1 from 127.0.0.1:52078
+2023_09_11 22:17:15.836615 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#1] at fd: 14
+2023_09_11 22:17:15.836715 [info]  : client 127.0.0.1:52078 connectd
+2023_09_11 22:17:15.844567 [info]  : event loop created in thread 1199636
+2023_09_11 22:17:15.844658 [fatal] : another eventloop exist in thread 1199636
+2023_09_11 22:17:15.844746 [info]  : client actor[0x7f10f00027e0]
+2023_09_11 22:17:15.844803 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f10f00027e0eventloop start loop in 1199636
+2023_09_11 22:17:15.845330 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:17:15.845613 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f10f00027e0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:17:15.845918 [info]  : client dctor[0x7f10f00027e0]
+2023_09_11 22:17:15.846001 [info]  : 127.0.0.1:52078 get source /html/login.html
+2023_09_11 22:17:15.846869 [info]  : client 127.0.0.1:52078 would closed
+2023_09_11 22:17:15.846905 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#1
+2023_09_11 22:17:15.846988 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#1] at fd: 14
+2023_09_11 22:17:15.989365 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#2 from 127.0.0.1:52092
+2023_09_11 22:17:15.989430 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#2] at fd: 14
+2023_09_11 22:17:15.989520 [info]  : client 127.0.0.1:52092 connectd
+2023_09_11 22:17:16.002784 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#3 from 127.0.0.1:52102
+2023_09_11 22:17:16.002846 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#3] at fd: 15
+2023_09_11 22:17:16.003074 [info]  : client 127.0.0.1:52102 connectd
+2023_09_11 22:17:16.008069 [info]  : event loop created in thread 1199637
+2023_09_11 22:17:16.008171 [fatal] : another eventloop exist in thread 1199637
+2023_09_11 22:17:16.008224 [info]  : client actor[0x7f10ec0026f0]
+2023_09_11 22:17:16.010912 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f10ec0026f0eventloop start loop in 1199637
+2023_09_11 22:17:16.011560 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:17:16.012406 [info]  : event loop created in thread 1199638
+2023_09_11 22:17:16.012406 [info]  : event loop created in thread 1199638
+TcpClient::~TcpClient[RpcConstmer] - connector 0x7f10ec0026f0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:17:16.012926 [info]  : client dctor[0x7f10ec0026f0]
+2023_09_11 22:17:16.013024 [info]  : 127.0.0.1:52092 get source /css/login.css
+2023_09_11 22:17:16.013215 [fatal] : another eventloop exist in thread 1199638
+2023_09_11 22:17:16.013288 [info]  : client actor[0x7f10e00026e0]
+2023_09_11 22:17:16.013333 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f10e00026e0eventloop start loop in 1199638
+2023_09_11 22:17:16.013878 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 16
+2023_09_11 22:17:16.015234 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f10e00026e0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 16
+2023_09_11 22:17:16.015633 [info]  : client dctor[0x7f10e00026e0]
+2023_09_11 22:17:16.015740 [info]  : 127.0.0.1:52102 get source /js/login.js
+2023_09_11 22:17:16.016936 [info]  : client 127.0.0.1:52092 would closed
+2023_09_11 22:17:16.016974 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#2
+2023_09_11 22:17:16.017062 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#2] at fd: 14
+2023_09_11 22:17:16.017466 [info]  : client 127.0.0.1:52102 would closed
+2023_09_11 22:17:16.017500 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#3
+2023_09_11 22:17:16.017573 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#3] at fd: 15
+2023_09_11 22:17:23.075236 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#4 from 127.0.0.1:40704
+2023_09_11 22:17:23.075299 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#4] at fd: 14
+2023_09_11 22:17:23.075439 [info]  : client 127.0.0.1:40704 connectd
+2023_09_11 22:17:23.081066 [info]  : event loop created in thread 1199639
+2023_09_11 22:17:23.081097 [fatal] : another eventloop exist in thread 1199639
+2023_09_11 22:17:23.081125 [info]  : client actor[0x7f10dc002a00]
+2023_09_11 22:17:23.081151 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f10dc002a00eventloop start loop in 1199639
+2023_09_11 22:17:56.394245 [info]  : event loop created in thread 1199699
+2023_09_11 22:17:56.394472 [info]  : ==================== Server Init  ====================
+2023_09_11 22:17:56.394484 [info]  : Port: 9999, threadNum: 4
+2023_09_11 22:17:56.394498 [info]  : Resource server: 127.0.0.1:9998
+2023_09_11 22:17:56.394511 [info]  : ==================== Server Start ====================
+2023_09_11 22:17:56.396711 [info]  : event loop created in thread 1199701
+2023_09_11 22:17:56.396851 [info]  : eventloop start loop in 1199701
+2023_09_11 22:17:56.396958 [info]  : event loop created in thread 1199702
+2023_09_11 22:17:56.397055 [info]  : eventloop start loop in 1199702
+2023_09_11 22:17:56.397133 [info]  : event loop created in thread 1199703
+2023_09_11 22:17:56.397227 [info]  : eventloop start loop in 1199703
+2023_09_11 22:17:56.397511 [info]  : event loop created in thread 1199704
+2023_09_11 22:17:56.397584 [info]  : eventloop start loop in 1199699
+2023_09_11 22:17:56.397601 [info]  : eventloop start loop in 1199704
+2023_09_11 22:17:58.662518 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#1 from 127.0.0.1:53348
+2023_09_11 22:17:58.662606 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#1] at fd: 14
+2023_09_11 22:17:58.662700 [info]  : client 127.0.0.1:53348 connectd
+2023_09_11 22:17:58.694063 [info]  : event loop created in thread 1199701
+2023_09_11 22:17:58.694113 [fatal] : another eventloop exist in thread 1199701
+2023_09_11 22:17:58.694146 [info]  : client actor[0x7f26d40027e0]
+2023_09_11 22:17:58.694180 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26d40027e0eventloop start loop in 1199701
+2023_09_11 22:17:58.696235 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:17:58.696718 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26d40027e0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:17:58.697138 [info]  : client dctor[0x7f26d40027e0]
+2023_09_11 22:17:58.697205 [info]  : 127.0.0.1:53348 get source /html/login.html
+2023_09_11 22:17:58.701279 [info]  : client 127.0.0.1:53348 would closed
+2023_09_11 22:17:58.701316 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#1
+2023_09_11 22:17:58.701402 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#1] at fd: 14
+2023_09_11 22:17:59.101505 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#2 from 127.0.0.1:53358
+2023_09_11 22:17:59.101617 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#2] at fd: 14
+2023_09_11 22:17:59.101784 [info]  : client 127.0.0.1:53358 connectd
+2023_09_11 22:17:59.109984 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#3 from 127.0.0.1:53364
+2023_09_11 22:17:59.110049 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#3] at fd: 15
+2023_09_11 22:17:59.110154 [info]  : client 127.0.0.1:53364 connectd
+2023_09_11 22:17:59.119816 [info]  : event loop created in thread 1199703
+2023_09_11 22:17:59.119853 [fatal] : another eventloop exist in thread 1199703
+2023_09_11 22:17:59.119885 [info]  : client actor[0x7f26c80026e0]
+2023_09_11 22:17:59.119917 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26c80026e0event loop created in thread 1199702
+2023_09_11 22:17:59.123927 [fatal] : another eventloop exist in thread 1199702
+2023_09_11 22:17:59.123965 [info]  : client actor[0x7f26d00026f0]
+2023_09_11 22:17:59.123998 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26d00026f0eventloop start loop in 1199702
+2023_09_11 22:17:59.125590 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 21
+2023_09_11 22:17:59.126127 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26d00026f0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 21
+2023_09_11 22:17:59.126643 [info]  : client dctor[0x7f26d00026f0]
+2023_09_11 22:17:59.126741 [info]  : 127.0.0.1:53358 get source /js/login.js
+2023_09_11 22:17:59.127073 [info]  : eventloop start loop in 1199703
+2023_09_11 22:17:59.127161 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:17:59.129271 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26c80026e0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:17:59.129996 [info]  : client 127.0.0.1:53358 would closed
+2023_09_11 22:17:59.130039 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#2
+2023_09_11 22:17:59.130277 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#2] at fd: 14
+2023_09_11 22:17:59.130871 [info]  : client dctor[0x7f26c80026e0]
+2023_09_11 22:17:59.131007 [info]  : 127.0.0.1:53364 get source /css/login.css
+2023_09_11 22:17:59.133346 [info]  : client 127.0.0.1:53364 would closed
+2023_09_11 22:17:59.133390 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#3
+2023_09_11 22:17:59.133491 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#3] at fd: 15
+2023_09_11 22:18:04.238102 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#4 from 127.0.0.1:53366
+2023_09_11 22:18:04.238176 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#4] at fd: 14
+2023_09_11 22:18:04.238284 [info]  : client 127.0.0.1:53366 connectd
+2023_09_11 22:18:04.245127 [info]  : event loop created in thread 1199704
+2023_09_11 22:18:04.245157 [fatal] : another eventloop exist in thread 1199704
+2023_09_11 22:18:04.245187 [info]  : client actor[0x7f26cc002a00]
+2023_09_11 22:18:04.245221 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26cc002a00eventloop start loop in 1199704
+2023_09_11 22:18:04.245507 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:18:04.247011 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26cc002a00TcpConnection::dctor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:18:04.247248 [info]  : client dctor[0x7f26cc002a00]
+2023_09_11 22:18:04.247302 [info]  : 123456 login success
+2023_09_11 22:18:04.247481 [info]  : 127.0.0.1:53366 get source /login
+2023_09_11 22:18:04.248257 [info]  : client 127.0.0.1:53366 would closed
+2023_09_11 22:18:04.248295 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#4
+2023_09_11 22:18:04.248337 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#4] at fd: 14
+2023_09_11 22:18:04.254497 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#5 from 127.0.0.1:53368
+2023_09_11 22:18:04.254564 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#5] at fd: 14
+2023_09_11 22:18:04.254657 [info]  : client 127.0.0.1:53368 connectd
+2023_09_11 22:18:04.416263 [info]  : event loop created in thread 1199701
+2023_09_11 22:18:04.416547 [info]  : client actor[0x7f26d4006a30]
+2023_09_11 22:18:04.416734 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26d4006a30eventloop start loop in 1199701
+2023_09_11 22:18:04.419475 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:18:04.419911 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26d4006a30TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 17
+2023_09_11 22:18:04.420642 [info]  : client dctor[0x7f26d4006a30]
+2023_09_11 22:18:04.420789 [info]  : 127.0.0.1:53368 get source /html/rooms.html
+2023_09_11 22:18:04.423152 [info]  : client 127.0.0.1:53368 would closed
+2023_09_11 22:18:04.423189 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#5
+2023_09_11 22:18:04.423283 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#5] at fd: 14
+2023_09_11 22:18:04.669939 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#6 from 127.0.0.1:53384
+2023_09_11 22:18:04.669998 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#6] at fd: 14
+2023_09_11 22:18:04.670074 [info]  : client 127.0.0.1:53384 connectd
+2023_09_11 22:18:04.686848 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#7 from 127.0.0.1:53392
+2023_09_11 22:18:04.686912 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#7] at fd: 15
+2023_09_11 22:18:04.687166 [info]  : client 127.0.0.1:53392 connectd
+2023_09_11 22:18:04.689206 [info]  : event loop created in thread 1199702
+2023_09_11 22:18:04.689257 [info]  : client actor[0x7f26d0001ec0]
+2023_09_11 22:18:04.689288 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26d0001ec0eventloop start loop in 1199702
+2023_09_11 22:18:04.689540 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:18:04.689937 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26d0001ec0TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 18
+2023_09_11 22:18:04.690089 [info]  : client dctor[0x7f26d0001ec0]
+2023_09_11 22:18:04.690155 [info]  : 127.0.0.1:53384 get source /css/rooms.css
+2023_09_11 22:18:04.690959 [info]  : client 127.0.0.1:53384 would closed
+2023_09_11 22:18:04.690993 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#6
+2023_09_11 22:18:04.695189 [info]  : event loop created in thread 1199703
+2023_09_11 22:18:04.695189 [info]  : event loop created in thread 1199703
+TcpConnection::dctor[httpserver-127.0.0.1:9999#6] at fd: 14
+2023_09_11 22:18:04.695423 [info]  : client actor[0x7f26c8001e20]
+2023_09_11 22:18:04.695476 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26c8001e20eventloop start loop in 1199703
+2023_09_11 22:18:04.697042 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9998#1] at fd: 14
+2023_09_11 22:18:04.697469 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26c8001e20TcpConnection::dctor[RpcConstmer:127.0.0.1:9998#1] at fd: 14
+2023_09_11 22:18:04.697956 [info]  : client dctor[0x7f26c8001e20]
+2023_09_11 22:18:04.698063 [info]  : 127.0.0.1:53392 get source /js/rooms.js
+2023_09_11 22:18:04.699193 [info]  : client 127.0.0.1:53392 would closed
+2023_09_11 22:18:04.699231 [info]  : TcpServer::removeConnectionInLoop httpserver - connection httpserver-127.0.0.1:9999#7
+2023_09_11 22:18:04.699321 [info]  : TcpConnection::dctor[httpserver-127.0.0.1:9999#7] at fd: 15
+2023_09_11 22:18:04.866131 [info]  : TcpServer::newConnection httpserver - new connection httpserver-127.0.0.1:9999#8 from 127.0.0.1:53394
+2023_09_11 22:18:04.866202 [info]  : TcpConnection::actor[httpserver-127.0.0.1:9999#8] at fd: 14
+2023_09_11 22:18:04.866347 [info]  : client 127.0.0.1:53394 connectd
+2023_09_11 22:18:04.878360 [info]  : event loop created in thread 1199704
+2023_09_11 22:18:04.878411 [info]  : client actor[0x7f26cc006160]
+2023_09_11 22:18:04.878439 [info]  : TcpClient::TcpClient[RpcConstmer] - connector 0x7f26cc006160eventloop start loop in 1199704
+2023_09_11 22:18:04.878678 [info]  : TcpConnection::actor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:18:04.881276 [info]  : TcpClient::~TcpClient[RpcConstmer] - connector 0x7f26cc006160TcpConnection::dctor[RpcConstmer:127.0.0.1:9997#1] at fd: 17
+2023_09_11 22:18:04.881466 [info]  : client dctor[0x7f26cc006160]

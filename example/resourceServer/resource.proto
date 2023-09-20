@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package crushed;
+
+option cc_generic_services = true;
+
+message ResourceResultCode {
+    int32 code = 1;
+    bytes type = 2;
+    bytes msg = 3;
+}
+
+message ResourceRequest {
+    bytes path = 1;
+}
+
+message ResourceResponse {
+    ResourceResultCode result = 1;
+    bytes responseMessage = 2;
+}
+
+service ResourceService {
+    rpc getResource(ResourceRequest) returns(ResourceResponse);
+}

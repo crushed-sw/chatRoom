@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #d8dee9 0%, #d8dee9 1%, #e8eef9 100%);
+}
+
+.notification {
+    background-color: #f0f0f0;
+    padding: 10px;
+    color: #bf616a;
+    border: 2px solid #bf616a;
+    border-radius: 4px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.notification.error {
+    color: #bf616a;
+    border: 2px solid #bf616a;
+    opacity: 1;
+}
+
+.notification.success {
+    color: #a3be8c;
+    border: 2px solid #a3be8c;
+    opacity: 1;
+}
+
+.container{
+    background-color: #fff;
+    width: 1040px;
+    height: 664px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.container .con-box {
+    width: 1040px;
+    height: 664px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container .form-box {
+    position: relative;
+    width: 1040px;
+    height: 664px;
+}
+
+.container .form-box .users-title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 60px;
+    background-color: #2e3440;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+.container .form-box .users {
+    position: absolute;
+    background-color: #2e3440;
+    left: 0px;
+    top: 60px;
+    width: 200px;
+    height: 604px;
+    padding-top: 6px;
+    overflow: auto;
+    scrollbar-color: transparent transparent;
+}
+
+.container .form-box .chat-form {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 840px;
+    height: 664px;
+    background-color: #2e3440;
+}
+
+.container .form-box .chat-form .chat-box {
+    position: relative;
+    width: 840px;
+    height: 634px;
+}
+
+.container .form-box .chat-form .chat-box .chat-title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 810px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+.container .form-box .chat-form .chat-box .chat-title p {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 1000px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 60px;
+    text-align: right;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form {
+    position: absolute;
+    background-color: #434c5e;
+    top: 60px;
+    left: 0px;
+    width: 810px;
+    height: 510px;
+    overflow: auto;
+    scrollbar-color: transparent transparent;
+    border-radius: 20px 20px 0 0;
+}
+
+.container .form-box .chat-form .chat-box .chat-text {
+    position: absolute;
+    background-color: #434c5e;
+    bottom: 0px;
+    left: 0px;
+    width: 810px;
+    height: 64px;
+    border-radius: 0 0 20px 20px;
+}
+
+.container .form-box .users li {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    color: #eceff4;
+    background-color: #4c566a;
+    border-radius: 20px;
+    height: 30px;
+    margin: 10px 20px;
+    padding: 6px;
+    padding-left: 15px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default;
+}
+
+.container .form-box .users .owner {
+    border: 2px solid #d08770;
+}
+
+.container .form-box .users .user {
+    border: 2px solid #8fbcbb;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .message {
+    position: relative;
+    margin: 10px;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .self .name-time {
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .other .name-time {
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .time {
+    font-size: 13px;
+    margin: 10px;
+    color: #aaa;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .self .time {
+    right: 10px;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .name {
+    color: #e5e9f0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .self {
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.container .form-box .chat-form .chat-box .chat-main-form .other {
+    padding-left: 20px;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .content {
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    padding: 10px;
+    color: #fefefe;
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .other .content {
+    background-color: #81a1c1;
+    border-radius: 16px 16px 16px 0;
+}
+
+.container .form-box .chat-form .chat-box .chat-main-form .self .content {
+    text-align: left;
+    background-color: #5e81ac;
+    border-radius: 16px 16px 0 16px;
+}
+
+/* .container .form-box .chat-form .chat-box .chat-main-form .self .content::after { */
+/*     content: ""; */
+/*     position: absolute; */
+/*     top: 12px; */
+/*     right: -12px; */
+/*     height: 0; */
+/*     width: 0; */
+/*     border-style: solid; */
+/*     border-width: 16px 0 0 16px; */
+/*     border-color: lightgreen transparent transparent transparent; */
+/*     transform: rotate(-90deg); */
+/* } */
+
+/* .container .form-box .chat-form .chat-box .chat-main-form .other .content::before { */
+/*     content: ""; */
+/*     position: absolute; */
+/*     top: 12px; */
+/*     left: -12px; */
+/*     height: 0; */
+/*     width: 0; */
+/*     border-style: solid; */
+/*     border-width: 16px 0 0 16px; */
+/*     border-color: lightblue transparent transparent transparent; */
+/* } */
+
+.container .form-box .chat-form .chat-box .chat-text .text-box {
+    position: absolute;
+    background-color: #d8dee9;
+    border: 2px solid #434c5e;
+    border-radius: 16px;
+    top: 6px;
+    left: 20px;
+    height: 42px;
+    width: 704px;
+}
+
+.container .form-box .chat-form .chat-box .chat-text .text-box .text-con {
+    position: relative;
+    height: 42px;
+}
+
+.container .form-box .chat-form .chat-box .chat-text .text-box textarea {
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #d8dee9;
+    scrollbar-color: transparent transparent;
+    left: 10px;
+    top: 2px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.container .form-box .chat-form .chat-box .send-message {
+    position: absolute;
+    bottom: 15px;
+    right: 45px;
+    margin-top: 3%;
+    color: #3b4252;
+    border-radius: 20px;
+    background-color: #d8dee9;
+    padding: 8px 12px;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container .form-box .chat-form .chat-box .send-message:hover {
+    background-color: #5e81ac;
+    color: #d8dee9;
+    border: none;
+}
+
+.container .logout-room {
+    position: absolute;
+    bottom: 0px;
+    right: -250px;
+    width: 200px;
+    color: #e5e9f0;
+    border: 2px solid #4c566a;
+    background-color: #4c566a;
+    outline: none;
+    border-radius: 13px;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.container .logout-room:hover {
+    background-color: #e5e9f0;
+    color: #4c566a;
+    border: 2px solid #4c566a;
+}
+
+.container .delete-room {
+    display: none;
+    position: absolute;
+    bottom: 100px;
+    right: -250px;
+    width: 200px;
+    color: #e5e9f0;
+    border: 2px solid #4c566a;
+    background-color: #4c566a;
+    outline: none;
+    border-radius: 13px;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.container .delete-room:hover {
+    background-color: #e5e9f0;
+    color: #4c566a;
+    border: 2px solid #4c566a;
+}
+
+.container .show {
+    display: block;
+}
+

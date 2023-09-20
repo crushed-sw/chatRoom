@@ -1,0 +1,93 @@
+2023_09_14 15:19:23.853146 [info]  : event loop created in thread 1220073
+2023_09_14 15:19:23.854316 [info]  : rpcProvider start service at 127.0.0.1:9997
+2023_09_14 15:19:23.854559 [info]  : event loop created in thread 1220075
+2023_09_14 15:19:23.854596 [info]  : eventloop start loop in 1220075
+2023_09_14 15:19:23.854705 [info]  : event loop created in thread 1220076
+2023_09_14 15:19:23.854729 [info]  : eventloop start loop in 1220076
+2023_09_14 15:19:23.854756 [info]  : eventloop start loop in 1220073
+2023_09_14 15:39:36.688033 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#1 from 127.0.0.1:35066
+2023_09_14 15:39:36.688141 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#1] at fd: 10
+2023_09_14 15:39:36.926942 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#1
+2023_09_14 15:39:36.927115 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#1] at fd: 10
+2023_09_14 15:39:38.210379 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#2 from 127.0.0.1:35078
+2023_09_14 15:39:38.210447 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#2] at fd: 10
+2023_09_14 15:39:38.212982 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#2
+2023_09_14 15:39:38.213058 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#2] at fd: 10
+2023_09_14 15:39:51.725573 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#3 from 127.0.0.1:49212
+2023_09_14 15:39:51.725667 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#3] at fd: 10
+2023_09_14 15:39:51.727844 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#3
+2023_09_14 15:39:51.727971 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#3] at fd: 10
+2023_09_14 15:39:52.821474 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#4 from 127.0.0.1:49216
+2023_09_14 15:39:52.821538 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#4] at fd: 10
+2023_09_14 15:39:52.829303 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#4
+2023_09_14 15:39:52.829405 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#4] at fd: 10
+2023_09_14 15:47:09.065879 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#5 from 127.0.0.1:37420
+2023_09_14 15:47:09.065943 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#5] at fd: 10
+2023_09_14 15:47:09.069509 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#5
+2023_09_14 15:47:09.069581 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#5] at fd: 10
+2023_09_14 15:47:10.971828 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#6 from 127.0.0.1:37434
+2023_09_14 15:47:10.971894 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#6] at fd: 10
+2023_09_14 15:47:10.974350 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#6
+2023_09_14 15:47:10.974464 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#6] at fd: 10
+2023_09_14 15:48:27.988834 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#7 from 127.0.0.1:51674
+2023_09_14 15:48:27.988894 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#7] at fd: 10
+2023_09_14 15:48:27.991954 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#7
+2023_09_14 15:48:27.992060 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#7] at fd: 10
+2023_09_14 15:48:29.436285 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#8 from 127.0.0.1:51686
+2023_09_14 15:48:29.436351 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#8] at fd: 10
+2023_09_14 15:48:29.442482 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#8
+2023_09_14 15:48:29.442638 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#8] at fd: 10
+2023_09_14 16:25:40.167978 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#9 from 127.0.0.1:41966
+2023_09_14 16:25:40.168046 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#9] at fd: 10
+2023_09_14 16:25:40.183111 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#9
+2023_09_14 16:25:40.183224 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#9] at fd: 10
+2023_09_14 16:25:40.675892 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#10 from 127.0.0.1:41976
+2023_09_14 16:25:40.675956 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#10] at fd: 10
+2023_09_14 16:25:40.679704 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#10
+2023_09_14 16:25:40.679836 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#10] at fd: 10
+2023_09_14 16:25:51.638910 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#11 from 127.0.0.1:40296
+2023_09_14 16:25:51.638978 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#11] at fd: 10
+2023_09_14 16:25:51.641913 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#11
+2023_09_14 16:25:51.642053 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#11] at fd: 10
+2023_09_14 16:25:54.624500 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#12 from 127.0.0.1:40298
+2023_09_14 16:25:54.624566 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#12] at fd: 10
+2023_09_14 16:25:54.628351 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#12
+2023_09_14 16:25:54.628433 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#12] at fd: 10
+2023_09_14 16:26:14.692404 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#13 from 127.0.0.1:59486
+2023_09_14 16:26:14.692466 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#13] at fd: 10
+2023_09_14 16:26:14.696981 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#13
+2023_09_14 16:26:14.697085 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#13] at fd: 10
+2023_09_14 16:26:15.244304 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#14 from 127.0.0.1:59498
+2023_09_14 16:26:15.244371 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#14] at fd: 10
+2023_09_14 16:26:15.249067 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#14
+2023_09_14 16:26:15.249132 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#14] at fd: 10
+2023_09_14 16:26:27.129434 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#15 from 127.0.0.1:59176
+2023_09_14 16:26:27.129531 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#15] at fd: 10
+2023_09_14 16:26:27.149827 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#15
+2023_09_14 16:26:27.149915 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#15] at fd: 10
+2023_09_14 20:46:25.669265 [error] : epoll_wait() error : 4
+2023_09_14 20:46:25.673451 [error] : epoll_wait() error : 4
+2023_09_14 20:46:25.673487 [error] : epoll_wait() error : 4
+2023_09_14 21:25:32.215578 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#16 from 127.0.0.1:53610
+2023_09_14 21:25:32.215703 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#16] at fd: 10
+2023_09_14 21:25:32.290103 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#17 from 127.0.0.1:53624
+2023_09_14 21:25:32.290219 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#17] at fd: 15
+2023_09_14 21:25:32.290470 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#16
+2023_09_14 21:25:32.290544 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#16] at fd: 10
+2023_09_14 21:25:32.313991 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#17
+2023_09_14 21:25:32.314083 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#17] at fd: 15
+2023_09_14 21:25:41.172328 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#18 from 127.0.0.1:33720
+2023_09_14 21:25:41.172383 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#18] at fd: 10
+2023_09_14 21:25:41.173690 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#18
+2023_09_14 21:25:41.173755 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#18] at fd: 10
+2023_09_14 21:25:41.619032 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#19 from 127.0.0.1:33724
+2023_09_14 21:25:41.619093 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#19] at fd: 10
+2023_09_14 21:25:41.624267 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#19
+2023_09_14 21:25:41.624378 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#19] at fd: 10
+2023_09_14 21:26:00.371381 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#20 from 127.0.0.1:34696
+2023_09_14 21:26:00.371490 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#20] at fd: 10
+2023_09_14 21:26:00.382859 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#20
+2023_09_14 21:26:00.382965 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#20] at fd: 10
+2023_09_14 23:28:06.702246 [error] : epoll_wait() error : epoll_wait() error : epoll_wait() error : 4
+2023_09_14 23:28:06.705827 [error] : 4
+2023_09_14 23:28:06.705852 [error] : 4

@@ -1,0 +1,140 @@
+syntax = "proto3";
+
+package crushed;
+
+option cc_generic_services = true;
+
+message MysqlResultCode {
+    int32 code = 1;
+    bytes msg = 2;
+}
+
+message User {
+    int32 userid = 1;
+    bytes username = 2;
+    bytes password = 3;
+}
+
+message Rooms {
+    int32 roomid = 1;
+    bytes roomname = 2;
+    int32 roomuser = 3;
+}
+
+message RoomUser {
+    int32 roomid = 1;
+    bytes roomname = 2;
+    int32 roomuser = 3;
+    bytes username = 4;
+}
+
+message ChatMessage {
+    int32 chatid = 1;
+    int32 roomid = 2;
+    int32 userid = 3;
+    bytes sendtime = 4;
+    bytes message = 5;
+}
+
+message UserQueryRequest {
+    int32 userid = 1;
+}
+
+message UserQueryResponse {
+    MysqlResultCode result = 1;
+    User user = 2;
+}
+
+message UserInsertRequest {
+    User user = 1;
+}
+
+message UserInsertResponse {
+    MysqlResultCode result = 1;
+}
+
+message RoomQueryRequest {
+    int32 roomid = 1;
+}
+
+message RoomQueryResponse {
+    MysqlResultCode result = 1;
+    Rooms rooms = 2;
+}
+
+message RoomQueryLastRequest {
+    bytes roomname = 1;
+    int32 userid = 2;
+}
+
+message RoomQueryLastResponse {
+    MysqlResultCode result = 1;
+    Rooms rooms = 2;
+}
+
+message RoomInsertRequest {
+    Rooms rooms = 1;
+}
+
+message RoomInsertResponse {
+    MysqlResultCode result = 1;
+}
+
+message RoomRemoveRequest {
+    int32 roomid = 1;
+}
+
+message RoomRemoveResponse {
+    MysqlResultCode result = 1;
+}
+
+message RoomQueryAllRequest {}
+
+message RoomQueryAllResponse {
+    MysqlResultCode result = 1;
+    repeated Rooms rooms = 2;
+}
+
+message RoomQueryByNameRequest {
+    int32 roomid = 1;
+}
+
+message RoomQueryByNameResponse {
+    MysqlResultCode result = 1;
+    RoomUser roomuser = 2;
+}
+
+message RoomQueryAllByNameRequest {}
+
+message RoomQueryAllByNameResponse {
+    MysqlResultCode result = 1;
+    repeated RoomUser roomuser = 2;
+}
+
+message ChatMessageInsertRequest {
+    ChatMessage chatmessage = 1;
+}
+
+message ChatMessageInsertResponse {
+    MysqlResultCode result = 1;
+}
+
+service UserMappingService {
+    rpc queryUser(UserQueryRequest) returns(UserQueryResponse);
+    rpc insertUser(UserInsertRequest) returns(UserInsertResponse);
+}
+
+service RoomMappingService {
+    rpc queryRoom(RoomQueryRequest) returns(RoomQueryResponse);
+    rpc queryLastRoom(RoomQueryLastRequest) returns(RoomQueryLastResponse);
+    rpc insertRoom(RoomInsertRequest) returns(RoomInsertResponse);
+    rpc removeRoom(RoomRemoveRequest) returns(RoomRemoveResponse);
+    rpc queryAllRoom(RoomQueryAllRequest) returns(RoomQueryAllResponse);
+    rpc queryByName(RoomQueryByNameRequest) returns(RoomQueryByNameResponse);
+    rpc queryAllByName(RoomQueryAllByNameRequest) returns(RoomQueryAllByNameResponse);
+}
+
+service ChatMessageMappinngService {
+    rpc insertChatMessage(ChatMessageInsertRequest) returns(ChatMessageInsertResponse);
+}
+

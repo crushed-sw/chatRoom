@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>注册登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="notification"></div>
+    <div class="form-box">
+        <div class="register-box hidden">
+            <h1>register</h1>
+            <input type="text" placeholder="用户ID" id="register-user-id">
+            <span class="warning" id="register-user-id-message"></span>
+            <input type="text" placeholder="用户名" id="register-user-name">
+            <span class="warning" id="register-user-name-message"></span>
+            <input type="password" placeholder="密码" id="register-password">
+            <span class="warning" id="register-password-message"></span>
+            <input type="password" placeholder="确认密码" id="register-password-confirm">
+            <span class="warning" id="register-password-confirm-message"></span>
+            <button id="register-button">注册</button>
+        </div>
+
+        <div class="login-box">
+            <h1>login</h1>
+            <input type="text" placeholder="用户ID" id="login-user-id">
+            <span class="warning" id="login-user-id-message"></span>
+            <input type="password" placeholder="密码" id="login-password">
+            <span class="warning" id="login-password-message"></span>
+            <button id="login-button">登录</button>
+        </div>
+    </div>
+
+    <div class="con-box left">
+        <h2>欢迎来到<span>聊天室</span></h2>
+        <p>快来与小伙伴一起<span>聊天</span>吧</p>
+        <p>已有账号</p>
+        <button id="login">去登录</button>
+    </div>
+
+    <div class="con-box right">
+        <h2>欢迎来到<span>聊天室</span></h2>
+        <p>快来与小伙伴一起<span>聊天</span>吧</p>
+        <p>没有账号？</p>
+        <button id="register">去注册</button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+<script src="../js/login.js"></script>
+</body>
+
+</html>

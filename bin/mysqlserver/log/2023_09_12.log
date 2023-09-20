@@ -1,0 +1,15 @@
+2023_09_12 22:59:10.118846 [info]  : event loop created in thread 1207989
+2023_09_12 22:59:10.120430 [info]  : rpcProvider start service at 127.0.0.1:9997
+2023_09_12 22:59:10.121036 [info]  : event loop created in thread 1207991
+2023_09_12 22:59:10.121220 [info]  : eventloop start loop in 1207991
+2023_09_12 22:59:10.121338 [info]  : event loop created in thread 1207992
+2023_09_12 22:59:10.121472 [info]  : eventloop start loop in 1207989
+2023_09_12 22:59:10.121780 [info]  : eventloop start loop in 1207992
+2023_09_12 22:59:33.157918 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#1 from 127.0.0.1:32776
+2023_09_12 22:59:33.158011 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#1] at fd: 10
+2023_09_12 22:59:33.308148 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#1
+2023_09_12 22:59:33.308389 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#1] at fd: 10
+2023_09_12 22:59:34.132788 [info]  : TcpServer::newConnection RpcProvider - new connection RpcProvider-127.0.0.1:9997#2 from 127.0.0.1:32780
+2023_09_12 22:59:34.132860 [info]  : TcpConnection::actor[RpcProvider-127.0.0.1:9997#2] at fd: 10
+2023_09_12 22:59:34.138398 [info]  : TcpServer::removeConnectionInLoop RpcProvider - connection RpcProvider-127.0.0.1:9997#2
+2023_09_12 22:59:34.138518 [info]  : TcpConnection::dctor[RpcProvider-127.0.0.1:9997#2] at fd: 10
